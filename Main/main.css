@@ -1,37 +1,10 @@
-body{
-    height: 100%;
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    background-color: darkgray;
-}
-
-#logout{
-    display: flex;
-    border-radius: 40px;
-    background-color: rgb(95, 62, 171);
-    color: white;
-    padding: 10px;
-    margin: 20px 990px 20px 10px;
-    height: 10px;
-    width: 30px;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 10px;
-    font-weight: bold;
-}
-#logout:hover{
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    height: 20px;
-    width: 50px;
-    margin: 20px 990px 20px 10px;
-    padding: 5px;
-    cursor: pointer;
-
-
-
+    background-color: #f0f0f0;
 }
 
 .navbar{
@@ -43,13 +16,20 @@ body{
     background-color: rgb(3, 3, 91);
     color: white;
     padding: 5px;
+    text-decoration: solid;
 }
+
+a{
+    text-decoration: solid;
+    color: white;
+}
+
 .navbar ul li{
     display: inline-block;
     border: 0px solid 0px;
     border-radius: 40px;
     background-color: rgb(95, 62, 171);
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
     margin-right: 20px;
     height: 20px;
     width: 50px;
@@ -62,7 +42,7 @@ body{
     color: black;
     background-color: aquamarine;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
     margin-right: 20px;
     height: 20px;
     width: 50px;
@@ -72,160 +52,60 @@ body{
 }
 
 
-.container{
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px 350px 50px 350px;
+}
+
+.slides {
     display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: darkslategray;
-    margin: 0;
-    padding: 5px;
-    flex-wrap: wrap;
+    transition: transform 0.5s ease-in-out;
+    height: 550px;
+    width: 800px;
 }
 
-.firstbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.firstbox:hover{
-    background-color: coral;
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
 }
 
-.secondbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
+.slide img {
+    width: 800px;
+    height: 550px;
+    display: block;
+    border-radius: 10px;
 }
-.secondbox:hover{
-    background-color: black;
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
-.thirdbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.thirdbox:hover{
-    background-color: springgreen;
+button.prev {
+    left: 10px;
 }
 
-.fourthbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.fourthbox:hover{
-    background-color: pink;
+button.next {
+    right: 10px;
 }
 
-.fifthbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.fifthbox:hover{
-    background-color: aqua;
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.sixthbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-
-}
-.sixthbox:hover{
-    background-color: antiquewhite;
-
-}
-
-.seventhbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.seventhbox:hover{
-    background-color: green;
-}
-
-.eightbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-}
-.eightbox:hover{
-    background-color: blue;
-}
-
-.ninthbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-
-}
-.ninthbox:hover{
-    background-color: blueviolet;
-}
-
-.tenthbox{
-    height: 100px;
-    width: 200px;
-    background-color: rgb(114, 97, 51);
-    border: 2px solid 2 px;
-    border-radius: 50px 50px 50px 50px;
-    align-content: center;
-    text-align: center;
-    margin: 5px 5px;
-
-}
-.tenthbox:hover{
-    background-color: brown;
-}
 
 footer {
     width: 100%;
@@ -234,4 +114,11 @@ footer {
     margin: 0;
     background-color: #333;
     color: white;
+}
+
+
+@media only screen and (min-width: 431px) and (max-width: 932px) {
+    .slider {
+        margin: 0 0;
+    }
 }
