@@ -1,0 +1,237 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: darkgray;
+}
+
+#logout{
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(95, 62, 171);
+    color: white;
+    padding: 10px;
+    margin: 20px 990px 20px 10px;
+    height: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 10px;
+    font-weight: bold;
+}
+#logout:hover{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    width: 50px;
+    margin: 20px 990px 20px 10px;
+    padding: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(3, 3, 91);
+    color: white;
+    padding: 5px;
+}
+.navbar ul li{
+    display: inline-block;
+    border: 0px solid 0px;
+    border-radius: 40px;
+    background-color: rgb(95, 62, 171);
+    padding: 10px;
+    margin-right: 20px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    align-content: center;
+}
+.navbar ul li:hover{
+    display: inline-block;
+    border-radius: 40px;
+    color: black;
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 20px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.firstbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.firstbox:hover{
+    background-color: coral;
+}
+
+.secondbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.secondbox:hover{
+    background-color: black;
+    color: white;
+}
+
+.thirdbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.thirdbox:hover{
+    background-color: springgreen;
+}
+
+.fourthbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.fourthbox:hover{
+    background-color: pink;
+}
+
+.fifthbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.fifthbox:hover{
+    background-color: aqua;
+}
+
+.sixthbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+
+}
+.sixthbox:hover{
+    background-color: antiquewhite;
+
+}
+
+.seventhbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.seventhbox:hover{
+    background-color: green;
+}
+
+.eightbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+}
+.eightbox:hover{
+    background-color: blue;
+}
+
+.ninthbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+
+}
+.ninthbox:hover{
+    background-color: blueviolet;
+}
+
+.tenthbox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(114, 97, 51);
+    border: 2px solid 2 px;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    text-align: center;
+    margin: 5px 5px;
+
+}
+.tenthbox:hover{
+    background-color: brown;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    background-color: #333;
+    color: white;
+}
