@@ -117,8 +117,3 @@ footer {
 }
 
 
-@media only screen and (min-width: 431px) and (max-width: 932px) {
-    .slider {
-        margin: 0 0;
-    }
-}
